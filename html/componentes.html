@@ -65,11 +65,11 @@
                             <a href="#tramites">Trámites</a>
                         </li>
                         <li class="sidebar__li">
-                            <a href="#servicios">Otros Servicios</a>
+                            <a href="#extras">Extras</a>
                         </li>
-                        <!-- <li class="sidebar__li">
-                            <a href="#otros-botones">Otros Botones</a>
-                        </li> -->
+                        <li class="sidebar__li">
+                            <a href="#crearCuenta">Crear Cuenta</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -78,10 +78,10 @@
                     <h4>Menu</h4>
                     <ul>
                         <li class="sidebar__li">
-                            <a href="#">Secciones</a>
+                            <a href="#menu_iconos">Iconos</a>
                         </li>
                         <li class="sidebar__li">
-                            <a href="#">Iconos</a>
+                            <a href="#menu_secciones">Secciones</a>
                         </li>
                         <!-- <li class="sidebar__li">
                             <a href="#">Otros Botones</a>
@@ -93,7 +93,7 @@
                     <h4>Header</h4>
                     <ul>
                         <li class="sidebar__li">
-                            <a href="#">Tipos de Header</a>
+                            <a href="#headers">Tipos de Header</a>
                         </li>
                         <!-- <li class="sidebar__li">
                             <a href="#">Otros Servicios</a>
@@ -105,23 +105,22 @@
                 </div>
             </div>
 
-
+            
 
 
             <section class="hero_componentes col-9">
+                <h2>Botones</h2>
                 
                 <div id="tramites" class="componentes__tramites">
-                    <h2>Trámites</h2>
+                    <h3>Botones de Trámites</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores ipsum eum ullam? Magni necessitatibus maxime dolor ducimus tempora fuga quisquam asperiores alias quaerat suscipit non maiores corrupti culpa voluptatum, minima quae, voluptas vitae optio iure enim rem dolore voluptatem.</p>
-                    
-                    <hr>
 
                     <div class="col-12 my-5">
 
                         <div class="row justify-content-around">
                             <div class="card_tramite col-5">
-                                <a href="#">
+                                <a href="#c">
                                     <img src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/03-tramites.svg" alt="">
     
                                     <div class="card_tramite_info">
@@ -129,14 +128,12 @@
                                         <p>Ministerio de Gobierno</p>
                                     </div>
         
-                                    <div class="footer_card">
-                                        <img src="../assets/imgs/Grafica CIDI/CIDI 1.2/10-linea.png" alt="">
-                                    </div>
+                                    <div class="footer_card"></div>
                                 </a>
                             </div>
     
                             <div class="card_tramite col-5">
-                                <a href="#">
+                                <a href="#c">
                                     <img src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/03-tramites.svg" alt="">
     
                                     <div class="card_tramite_info">
@@ -144,57 +141,270 @@
                                         <p>Secretaría de Seguridad y Orden Público</p>
                                     </div>
         
-                                    <div class="footer_card">
-                                        <img src="../assets/imgs/Grafica CIDI/CIDI 1.2/10-linea.png" alt="">
-                                    </div>
+                                    <div class="footer_card"></div>
                                 </a>
                             </div>
                         </div>
                         
-                        <pre class="language-html"><code>
-&lt;div class="card_tramite"&gt;
+                        <pre class="language-html">
+
+<code><textarea rows="10">&lt;div class="card_tramite"&gt;
     &lt;a href="#"&gt;
         &lt;img src="..." alt="..."&gt;
         &lt;div class="card_tramite_info"&gt;
             &lt;h3&gt;...&lt;/h3&gt;
             &lt;p&gt;...&lt;/p&gt;
         &lt;/div&gt;
-        &lt;div class="footer_card"&gt;
-            &lt;img src="..." alt="..."&gt;
+        &lt;div class="footer_card"&gt;&lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;</textarea></code></pre>
+                    </div>
+                </div>
+
+
+                <hr>
+
+
+                <!-- EXTRAS -->
+
+
+                <div id="extras" class="componentes__tramites">
+                    <h3>Botones Extras</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores ipsum eum ullam? Magni necessitatibus maxime dolor ducimus tempora fuga quisquam asperiores alias quaerat suscipit non maiores corrupti culpa voluptatum, minima quae, voluptas vitae optio iure enim rem dolore voluptatem.</p>                    
+
+                    <div class="col-12 my-5">
+
+                        <div class="row justify-content-around">
+                            <div class="boton_extras col-5">
+                                <a href="#c">
+                                    <div class="card_tramite_info">
+                                        <h3>Solicitar Turno</h3>
+                                    </div>
+
+                                    <!-- <img src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/03-tramites.svg" alt=""> -->
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <pre class="language-html">
+
+<code><textarea rows="7">
+&lt;div class="boton_extras col-5"&gt;
+    &lt;a href="#"&gt;
+        &lt;div class="card_tramite_info"&gt;
+            &lt;h3&gt;...&lt;/h3&gt;
         &lt;/div&gt;
     &lt;/a&gt;
-&lt;/div&gt;
-                            </code></pre>
+&lt;/div&gt;</textarea></code></pre>
+                    </div>
+
+                    <!-- EXTRAS CON ICONO -->
+
+                    <div class="col-12 my-5">
+
+                        <div class="row justify-content-around">
+                            <div class="boton_extras col-5">
+                                <a href="#c">
+                                    <div class="card_tramite_info">
+                                        <h3>Compartir</h3>
+                                    </div>
+
+                                    <div class="extra_iconos">
+                                        <img class="extra_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/21-compartir.svg" alt="">
+                                        <img class="extra_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/21-compartir.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <pre class="language-html">
+
+<code><textarea rows="7">
+&lt;div class="boton_extras col-5"&gt;
+    &lt;a href="#"&gt;
+        &lt;div class="card_tramite_info"&gt;
+            &lt;h3&gt;...&lt;/h3&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;</textarea></code></pre>
+                    </div>
+
+
+                    <!-- Botón Crear Cuenta -->
+
+                    <div id="crearCuenta" class="col-12 my-5">
+
+                        <div class="row justify-content-around">
+                            <div class="boton_extras_cuenta col-5">
+                                <a href="#c">
+                                    <div class="card_cuenta_info">
+                                        <h3>Crear Cuenta CIDI</h3>
+                                    </div>
+
+                                    <div class="extra_iconos_cuenta">
+                                        <img class="extra_cuenta_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/04-cuenta.svg" alt="">
+                                        <img class="extra_cuenta_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/04-usuario.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <pre class="language-html">
+
+<code><textarea rows="12">
+&lt;div class="boton_extras_cuenta"&gt;
+    &lt;a href="#"&gt;
+        &lt;div class="card_cuenta_info"&gt;
+            &lt;h3&gt;...&lt;/h3&gt;
+        &lt;/div&gt;
+
+        &lt;div class="extra_iconos_cuenta"&gt;
+            &lt;img class="extra_cuenta_rojo" src="..." alt=""&gt;
+            &lt;img class="extra_cuenta_blanco" src="..." alt=""&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;</textarea></code></pre>
                     </div>
                 </div>
 
-                <div id="servicios" class="componentes__tramites">
-                    <h2>Otros Servicios</h2>
+
+                <h2>Menu</h2>
+                <div id="menu_iconos" class="componentes__tramites">
+                    <h3>Iconos Menu</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores ipsum eum ullam? Magni necessitatibus maxime dolor ducimus tempora fuga quisquam asperiores alias quaerat suscipit non maiores corrupti culpa voluptatum, minima quae, voluptas vitae optio iure enim rem dolore voluptatem.</p>
                     
                     <hr>
 
                     <div class="col-12">
-                        <pre class=" language-html">
-                            
-                        </pre>
-                    </div>
-                </div>
 
-                <div id="otros-botones" class="componentes__tramites">
-                    <h2>Otros Botones</h2>
+                        <div class="row justify-content-center flex-column align-items-center">
+                            <div class="boton_menu_icono">
+                                <a href="#c">
+                                    <!-- <div class="card_cuenta_info">
+                                        <h3>Crear Cuenta CIDI</h3>
+                                    </div> -->
+
+                                    <div class="menu_iconos active">
+                                        <img class="menu_iconos_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/23-home.svg" alt="">
+                                        <img class="menu_iconos_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/23-home.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="boton_menu_icono">
+                                <a href="#c">
+                                    <!-- <div class="card_cuenta_info">
+                                        <h3>Crear Cuenta CIDI</h3>
+                                    </div> -->
+
+                                    <div class="menu_iconos">
+                                        <img class="menu_iconos_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/22-billetera.svg" alt="">
+                                        <img class="menu_iconos_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/22- billetera.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="boton_menu_icono">
+                                <a href="#c">
+                                    <!-- <div class="card_cuenta_info">
+                                        <h3>Crear Cuenta CIDI</h3>
+                                    </div> -->
+
+                                    <div class="menu_iconos">
+                                        <img class="menu_iconos_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/24-notificación.svg" alt="">
+                                        <img class="menu_iconos_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/24-notificación.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>  
+                        </div>
+                        
+                        <pre class="language-html">
+
+<code><textarea rows="8">
+&lt;div class="boton_menu_icono"&gt;
+    &lt;a href="#"&gt;
+        &lt;div class="menu_iconos active"&gt;
+            &lt;img class="menu_iconos_rojo" src="..." alt=""&gt;
+            &lt;img class="menu_iconos_blanco" src="..." alt=""&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;</textarea></code></pre>
+                    </div>
+                    </div>
+
+
+                <h3>Secciones Menu</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores ipsum eum ullam? Magni necessitatibus maxime dolor ducimus tempora fuga quisquam asperiores alias quaerat suscipit non maiores corrupti culpa voluptatum, minima quae, voluptas vitae optio iure enim rem dolore voluptatem.</p>
                     
                     <hr>
 
                     <div class="col-12">
-                        <pre class=" language-html">
-                            
-                        </pre>
+
+                        <div class="row justify-content-center flex-column align-items-center">
+                            <div class="menu_seccion_titulo active">
+                                <a href="#c">
+                                    <div class="menu_seccion">
+                                        <img class="menu_seccion_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/23-home.svg" alt="">
+                                        <img class="menu_seccion_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/23-home.svg" alt="">
+                                    </div>
+                                    
+                                    <div class="card_cuenta_info">
+                                        <h3>Inicio</h3>
+                                        <p>Ciudadano Digital</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="menu_seccion_titulo">
+                                <a href="#c">
+                                    <div class="menu_seccion">
+                                        <img class="menu_seccion_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/22-billetera.svg" alt="">
+                                        <img class="menu_seccion_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/22- billetera.svg" alt="">
+                                    </div>
+                                    
+                                    <div class="card_cuenta_info">
+                                        <h3>Billetera</h3>
+                                        <p>Ciudadano Digital</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="menu_seccion_titulo">
+                                <a href="#c">
+                                    <div class="menu_seccion">
+                                        <img class="menu_seccion_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/24-notificación.svg" alt="">
+                                        <img class="menu_seccion_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/24-notificación.svg" alt="">
+                                    </div>
+                                    
+                                    <div class="card_cuenta_info">
+                                        <h3>Notificaciones</h3>
+                                        <p>Ciudadano Digital</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        
+                        <pre class="language-html">
+
+<code><textarea rows="13">
+&lt;div class="menu_seccion_titulo"&gt;
+    &lt;a href="#"&gt;
+        &lt;div class="menu_seccion"&gt;
+            &lt;img class="menu_seccion_rojo" src="..." alt=""&gt;
+            &lt;img class="menu_seccion_blanco" src="..." alt=""&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="card_cuenta_info"&gt;
+            &lt;h3&gt;...&lt;/h3&gt;
+            &lt;p&gt;...&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;</textarea></code></pre>
                     </div>
-                </div>
+                    </div>
 
                 
 
@@ -231,7 +441,7 @@
     </script>
 
 
-
+    <script src="../assets/js/main.js"></script>
     
 </body>
 </html>
