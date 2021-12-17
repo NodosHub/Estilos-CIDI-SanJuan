@@ -1,5 +1,6 @@
 @import "componentes-css/styles-inicio.css";
 @import "componentes-css/styles-compo.css";
+@import "componentes-css/styles-planillas.css";
 
 *,
 *::after,
@@ -18,14 +19,13 @@ body {
 }
 
 pre {
-    width: 80%;
+    /* width: 80%; */
     height: fit-content;
     margin: 20px auto !important;
-    /* padding: 20px 50px; */
+    padding: 20px 50px !important;
     background-color: #e7e7e7;
     border: 1px solid #bebebe;
     border-radius: 15px;
-    user-select: none;
     overflow: hidden !important;
 }
 

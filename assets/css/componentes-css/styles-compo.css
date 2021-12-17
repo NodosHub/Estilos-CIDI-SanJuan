@@ -133,7 +133,7 @@
 }
 
 .card_tramite h3 {
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'BrokmanBold';
 }
 
@@ -231,8 +231,7 @@
 .boton_extras_cuenta {
     max-width: 260px;
     height: 60px;
-    padding: 0 20px !important;
-    padding-right: 0 !important;
+    padding: 0 !important;
     background: #fff;
     color: var(--pry-color);
     border: 1px solid var(--pry-color);
@@ -250,13 +249,14 @@
 
     
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     /* gap: 20px; */
 }
 
 .boton_extras_cuenta h3 {
     margin: 0;
+    font-size: 22px;
 }
 
 .boton_extras_cuenta:hover {
@@ -272,11 +272,20 @@
     padding-right: 0 !important;
 }
 
+.boton_extras_cuenta .card_cuenta_info {
+    width: calc(100% - 58px);
+    height: 100%;
+    position: absolute;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .boton_extras_cuenta .extra_iconos_cuenta {
-    /* width: 37px; */
+    width: 58px;
     height: 100%;
-    aspect-ratio: 1/1;
     background: var(--pry-color);
     position: absolute;
     right: 0;
