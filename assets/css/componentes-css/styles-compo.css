@@ -495,3 +495,78 @@
 }
 
 
+/* --- Boton Sección Menu Sin Bordes --- */
+
+.seccion_sin_borde_radius {
+    width: 288px;
+    height: 73px;
+    padding: 0 !important;
+    padding-right: 0 !important;
+    background: var(--pry-color);
+    color: #fff;
+    box-shadow: 3px 4px 4px #0004;
+    overflow: hidden;
+}
+
+.seccion_sin_borde_radius a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit !important;
+    position: relative;
+
+    
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.seccion_sin_borde_radius h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.seccion_sin_borde_radius p {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+.seccion_sin_borde_radius .menu_seccion {
+    /* width: 100%;
+    height: 100%; */
+    margin: 0 20px !important;
+    /* background: #fff; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.seccion_sin_borde_radius:hover {
+    background: #fff !important;
+    color: var(--pry-color) !important;
+}
+
+.seccion_sin_borde_radius .menu_seccion img {
+    width: 37px;
+    height: 37px;
+}
+
+.seccion_sin_borde_radius .menu_seccion .menu_seccion_blanco {
+    display: block;
+}
+
+.seccion_sin_borde_radius .menu_seccion .menu_seccion_rojo {
+    display: none;
+}
+
+.seccion_sin_borde_radius:hover .menu_seccion .menu_seccion_blanco {
+    display: none;
+}
+
+.seccion_sin_borde_radius:hover .menu_seccion .menu_seccion_rojo {
+    display: block;
+}

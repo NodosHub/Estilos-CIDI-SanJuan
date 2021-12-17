@@ -181,3 +181,19 @@
 .desplegable_seccion:hover .seccion_info {
     color: #fff;
 }
+
+
+/* Plantilla Header */
+
+.plantilla_header .header_iframe {
+    width: 100% !important;
+    height: 300px !important;
+    overflow: hidden;
+}
+
+.plantilla_header iframe {
+    width: 1350px !important;
+    height: 250%;
+    transform: scale(0.615);
+    transform-origin: top left;
+}

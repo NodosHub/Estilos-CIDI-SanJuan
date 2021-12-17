@@ -1,0 +1,115 @@
+@import url('fonts.css');
+@import url('variables.css');
+@import url('../estilos-cidi.css');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding-right: var(--bs-gutter-x,2.75rem) !important;
+    padding-left: var(--bs-gutter-x,2.75rem) !important;
+}
+
+.header_plantillaHeader {
+    width: 100%;
+    height: 104px !important;
+    height: fit-content;
+}
+
+.header_plantillaHeader .navbar {
+    /* position: relative; */
+}
+
+.header_plantillaHeader .header_linea {
+    width: 100%;
+    height: 7px;
+    z-index: 1000;
+    /* position: absolute;
+    top: 0; */
+}
+
+.header_plantillaHeader .navbar {
+    height: 100% !important;
+
+}
+
+.header_plantillaHeader .navbar-brand img {
+    height: 60px;
+}
+
+
+.navegacion hr {
+    width: 1px;
+    opacity: 0 !important;
+}
+
+.navegacion .navegacion-menu {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.075) !important;
+}
+
+
+/* --- HERO --- */
+
+.hero_plantilla_header {
+    width: 100%;
+    height: 40vh;
+    /* background: #a73737; */
+    background-image: linear-gradient(to right, #850505, #a82525), url('https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero_plantilla_header__huella {
+    width: 250px;
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+    opacity: 0.2;
+}
+
+.hero_plantilla_header__huella img {
+    width: 80%;
+}
+
+.hero_plantilla_header__presentacion {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero_plantilla_header_presentacion__img {
+    width: 250px;
+}
+
+
+.hero_plantilla_header_presentacion__img img {
+    width: 100%;
+}
+
+.hero_plantilla_header__presentacion hr {
+    border: 1px solid #fff;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.hero_plantilla_header__titulo h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 0.9;
+    user-select: none;
+}
