@@ -12,9 +12,9 @@ for (const icon of icons) {
 }
 
 
-// Click Event Menu
+// Click Menú Desplegable Lateral
 
-const secciones = document.querySelectorAll('.menu_seccion_titulo')
+const secciones = document.querySelectorAll('.desplegable_seccion')
 for (const seccion of secciones) {            
     seccion.addEventListener('click', (e) => {                
         for (const k of secciones) {
@@ -23,3 +23,11 @@ for (const seccion of secciones) {
         seccion.classList.add('active')
     })
 }
+
+const menu_burger = document.querySelector('.menu_desplegable_lateral')
+const menu_seccion = document.querySelectorAll('.desplegable_seccion')
+menu_burger.addEventListener('click', () => {
+    for (const icon of menu_seccion) {
+        icon.classList.toggle('show')
+    }
+})

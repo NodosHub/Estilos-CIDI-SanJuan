@@ -12,6 +12,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
+    <!-- BoxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
@@ -55,34 +58,31 @@
     <main class="main__componentes container">
         <div class="row">
             <div class="sidebar col-3">
-                <h3>Componentes</h3>
+                <h3>Plantillas</h3>
 
                 <hr>
                 
                 <div class="sidebar__secciones">
-                    <h4>Botones</h4>
+                    <h4>Header y Footer</h4>
                     <ul>
-                        <li class="sidebar__li active">
-                            <a href="#tramites">Trámites</a>
+                        <li class="sidebar__li">
+                            <a href="#plant_header">Header</a>
                         </li>
                         <li class="sidebar__li">
-                            <a href="#extras">Extras</a>
-                        </li>
-                        <li class="sidebar__li">
-                            <a href="#crearCuenta">Crear Cuenta</a>
+                            <a href="#plant_footer">Footer</a>
                         </li>
                     </ul>
                 </div>
 
                 
                 <div class="sidebar__secciones">
-                    <h4>Menu</h4>
+                    <h4>Menu Desplegable</h4>
                     <ul>
                         <li class="sidebar__li">
-                            <a href="#menu_iconos">Iconos</a>
+                            <a href="#menu_principal">Principal</a>
                         </li>
-                        <li class="sidebar__li">
-                            <a href="#menu_secciones">Secciones</a>
+                        <li class="sidebar__li active">
+                            <a href="#menu_lateral">Lateral</a>
                         </li>
                         <!-- <li class="sidebar__li">
                             <a href="#">Otros Botones</a>
@@ -110,64 +110,72 @@
 
                 <h2>Menu</h2>
                 <div id="menu_iconos" class="componentes__tramites">
-                    <h3>Iconos Menu</h3>
+                    <h3>Menú Lateral</h3>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores ipsum eum ullam? Magni necessitatibus maxime dolor ducimus tempora fuga quisquam asperiores alias quaerat suscipit non maiores corrupti culpa voluptatum, minima quae, voluptas vitae optio iure enim rem dolore voluptatem.</p>
+
                     
 
                     <div class="col-12">
 
-                        <div class="row justify-content-center flex-column align-items-center">
-                            <div class="boton_rojo_menu">
+                        <div class="">
+                            <div class="menu_desplegable_lateral">
                                 <a href="#c">
                                     <!-- <div class="card_cuenta_info">
                                         <h3>Crear Cuenta CIDI</h3>
                                     </div> -->
 
-                                    <div class="menu_rojo">
-                                        <img class="" alt="">
+                                    <div class="desplegable_burger">
+                                        <i class='bx bx-menu'></i>  
                                     </div>
                                     
                                 </a>
                             </div>
 
-                            <div class="boton_menu_icono">
-                                <a href="#c">
-                                    <!-- <div class="card_cuenta_info">
-                                        <h3>Crear Cuenta CIDI</h3>
-                                    </div> -->
 
-                                    <div class="menu_iconos active">
-                                        <img class="menu_iconos_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/23-home.svg" alt="">
-                                        <img class="menu_iconos_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/23-home.svg" alt="">
+                            <div class="desplegable_seccion active">
+                                <a href="#c">
+
+                                    <div class="seccion_iconos">
+                                        <img class="seccion_iconos_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/23-home.svg" alt="">
+                                        <img class="seccion_iconos_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/23-home.svg" alt="">
+                                    </div>
+
+                                    <div class="seccion_info">
+                                        <h3>Inicio</h3>
+                                        <p>Ciudadano Digital</p>
                                     </div>
                                     
                                 </a>
                             </div>
 
-                            <div class="boton_menu_icono">
+                            <div class="desplegable_seccion">
                                 <a href="#c">
-                                    <!-- <div class="card_cuenta_info">
-                                        <h3>Crear Cuenta CIDI</h3>
-                                    </div> -->
 
-                                    <div class="menu_iconos ">
-                                        <img class="menu_iconos_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/23-home.svg" alt="">
-                                        <img class="menu_iconos_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/23-home.svg" alt="">
+                                    <div class="seccion_iconos">
+                                        <img class="seccion_iconos_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/22-billetera.svg" alt="">
+                                        <img class="seccion_iconos_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/22- billetera.svg" alt="">
+                                    </div>
+
+                                    <div class="seccion_info">
+                                        <h3>Billetera</h3>
+                                        <p>Ciudadano Digital</p>
                                     </div>
                                     
                                 </a>
                             </div>
 
-                            <div class="boton_menu_icono">
+                            <div class="desplegable_seccion">
                                 <a href="#c">
-                                    <!-- <div class="card_cuenta_info">
-                                        <h3>Crear Cuenta CIDI</h3>
-                                    </div> -->
 
-                                    <div class="menu_iconos ">
-                                        <img class="menu_iconos_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/23-home.svg" alt="">
-                                        <img class="menu_iconos_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/23-home.svg" alt="">
+                                    <div class="seccion_iconos">
+                                        <img class="seccion_iconos_rojo" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos -SVG rojos/24-notificación.svg" alt="">
+                                        <img class="seccion_iconos_blanco" src="../assets/imgs/Grafica CIDI/CIDI 1.2/iconos-SVG-blancos/24-notificación.svg" alt="">
+                                    </div>
+
+                                    <div class="seccion_info">
+                                        <h3>Notificaciones</h3>
+                                        <p>Ciudadano Digital</p>
                                     </div>
                                     
                                 </a>

@@ -88,7 +88,7 @@ header .navbar .nav-link {
     /* font-weight: bold; */
 }
 
-.active {
+header .navbar .nav-item.active {
     background: var(--pry-color);
 }
 
