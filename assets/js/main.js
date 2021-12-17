@@ -1,5 +1,5 @@
 
-// Click Event Menu
+// Click Menu Lateral Collapsado
 
 const icons = document.querySelectorAll('.menu_iconos')
 for (const icon of icons) {            
@@ -8,6 +8,19 @@ for (const icon of icons) {
             j.classList.remove('active')
         }
         icon.classList.add('active')
+    })
+}
+
+
+// Click Menu Lateral Desplegado
+
+const menu_desplegado = document.querySelectorAll('.menu_seccion_titulo')
+for (const cada_seccion of menu_desplegado) {            
+    cada_seccion.addEventListener('click', (e) => {                
+        for (const j of menu_desplegado) {
+            j.classList.remove('active')
+        }
+        cada_seccion.classList.add('active')
     })
 }
 

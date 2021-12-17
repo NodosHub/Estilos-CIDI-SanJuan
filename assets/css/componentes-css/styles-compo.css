@@ -334,8 +334,8 @@
     transition: 0.4s;
 }
 
-.boton_menu_icono.show {
-    max-width: 300px !important;
+.boton_menu_icono {
+    max-width: 91px !important;
 }
 
 .boton_menu_icono a {
