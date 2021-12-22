@@ -38,13 +38,11 @@
 
 .header_plantillaHeader .navbar {
     height: 100% !important;
-
 }
 
 .header_plantillaHeader .navbar-brand img {
     height: 60px;
 }
-
 
 .navegacion hr {
     width: 1px;
@@ -53,6 +51,19 @@
 
 .navegacion .navegacion-menu {
     border-bottom: 1px solid rgba(255, 255, 255, 0.075) !important;
+}
+
+.header_plantillaHeader .nav-link img {
+    height: 50px;
+    transition: 0.4s;
+}
+
+.header_plantillaHeader .nav-item:hover {
+    background: transparent !important;
+}
+
+.header_plantillaHeader .nav-link:hover img {
+    transform: scale(1.1);
 }
 
 
